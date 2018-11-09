@@ -32,6 +32,7 @@ while ($row = $stmt->fetch())
 	
 	);
 }
+//http_response_code(200);
 echo json_encode($json_return);
 // Close connection
 ?>
